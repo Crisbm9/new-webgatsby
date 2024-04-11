@@ -55,5 +55,11 @@
 
 /* por mi */
 body{
-  background-color: rgb(252, 211, 218);
+  /* background-color: rgb(252, 211, 218); */
+  background: radial-gradient(circle, rgba(242,228,242,1) 0%, rgba(195,99,201,1) 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+  color: #993394;
+  font-size: 80px;
 }
