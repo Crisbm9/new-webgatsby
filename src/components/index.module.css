@@ -30,7 +30,7 @@
 }
 
 .listItem:nth-child(4)::marker {
-  color: #663399;
+  color: #993394;
 }
 
 .listItemLink {
@@ -51,4 +51,9 @@
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
+}
+
+/* por mi */
+body{
+  background-color: rgb(252, 211, 218);
 }

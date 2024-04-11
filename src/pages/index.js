@@ -8,42 +8,42 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "Tutorial",
+    text: "Comercio online",
     url: "https://www.gatsbyjs.com/docs/tutorial",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "Crea tu página web para vender online",
   },
   {
-    text: "Examples",
+    text: "Logotipo",
     url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
     description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      "Te diseñamos tu logotipo ideal",
   },
   {
-    text: "Plugin Library",
+    text: "Fotos",
     url: "https://www.gatsbyjs.com/plugins",
     description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
+      " Participamos activamente elaborando textos y eligiendo contenidos para tu web. Nuestro equipo propone las mejores ideas de contenido e imágenes para crear cada una de las páginas.",
   },
   {
-    text: "Build and Host",
+    text: "RRSS",
     url: "https://www.gatsbyjs.com/cloud",
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+      "Gestionamos tus RRSS para que estés al día y puedas llegar a más clientes",
   },
 ]
 
 const samplePageLinks = [
   {
-    text: "Page 2",
+    text: "Nuestros servicios",
     url: "page-2",
     badge: false,
     description:
       "A simple example of linking to another page within a Gatsby site",
   },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
+  // { text: "TypeScript", url: "using-typescript" },
+  // { text: "Server Side Rendering", url: "using-ssr" },
+  // { text: "Deferred Static Generation", url: "using-dsg" },
 ]
 
 const moreLinks = [
@@ -73,7 +73,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/logofresa.avif"
         loading="eager"
         width={64}
         quality={95}
@@ -82,7 +82,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Bienvenido a <b>MacedoniaWeb!</b>
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
@@ -93,7 +93,7 @@ const IndexPage = () => (
           </React.Fragment>
         ))}
         <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+        
       </p>
     </div>
     <ul className={styles.list}>
