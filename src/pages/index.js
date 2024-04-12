@@ -6,10 +6,11 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
+
 const links = [
   {
     text: "Comercio online",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
+    url: "src/pages/comercioonline.js",
     description:
       "Crea tu página web para vender online",
   },
@@ -41,6 +42,7 @@ const samplePageLinks = [
     description:
       "A simple example of linking to another page within a Gatsby site",
   },
+
   // { text: "TypeScript", url: "using-typescript" },
   // { text: "Server Side Rendering", url: "using-ssr" },
   // { text: "Deferred Static Generation", url: "using-dsg" },
@@ -73,9 +75,9 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/fruta.jpg"
+        src="../images/frutaa.png"
         loading="eager"
-        width={64}
+        width={124}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
@@ -85,7 +87,7 @@ const IndexPage = () => (
         Bienvenido a <b>MacedoniaWeb!</b>
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
+        <b>Algunos ejemplos de </b>{" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
