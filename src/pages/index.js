@@ -16,19 +16,19 @@ const links = [
   },
   {
     text: "Logotipo",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
+    url: "",
     description:
       "Te diseñamos tu logotipo ideal",
   },
   {
     text: "Fotos",
-    url: "https://www.gatsbyjs.com/plugins",
+    url: "",
     description:
       " Participamos activamente elaborando textos y eligiendo contenidos para tu web. Nuestro equipo propone las mejores ideas de contenido e imágenes para crear cada una de las páginas.",
   },
   {
     text: "RRSS",
-    url: "https://www.gatsbyjs.com/cloud",
+    url: "",
     description:
       "Gestionamos tus RRSS para que estés al día y puedas llegar a más clientes",
   },

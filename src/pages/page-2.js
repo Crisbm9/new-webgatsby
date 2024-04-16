@@ -6,8 +6,9 @@ import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <h1>Nuestros servicios</h1>
+    <h1 className="nuse">Nuestros servicios</h1>
     <p>Aquí puedes ver algunos ejemplos realizados</p>
+
     <Link to="/">Volver a inicio</Link>
   </Layout>
 )
